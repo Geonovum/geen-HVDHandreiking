@@ -1,20 +1,25 @@
 # Algemene vereisten HVD {#207C051B}
 
-De technische vereisten die aan de datasets van elk thema worden gesteld, zijn vastgesteld in de <a href='https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32019L1024' target='_blank'>Open Data richtlijn</a>, de <span style='color: #0563C1;'><u>Uitvoeringsverordening HVD</u></span> en in de <a href='https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32023R0138' target='_blank'>bijlage</a> van deze uitvoeringsverordening. Op basis van deze documenten zijn in dit hoofdstuk de technische afspraken opgenomen die voor alle thema’s en alle datasets gelden die onder HVD vallen. De vereisten zijn onderverdeeld in vereisten voor de data, vereisten voor de metadata en vereisten voor het beschikbaar stellen.
+De technische vereisten die aan de datasets van elk thema worden gesteld, zijn vastgesteld in de <a href='https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32019L1024' target='_blank'>Open Data richtlijn</a>, de <a href='https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32023R0138' target='_blank'>Uitvoeringsverordening HVD</a> en in de bijlage van deze uitvoeringsverordening. Op basis van deze documenten zijn in dit hoofdstuk de technische afspraken opgenomen die voor alle thema’s en alle datasets gelden die onder HVD vallen. De vereisten zijn onderverdeeld in vereisten voor de data, vereisten voor de metadata en vereisten voor het beschikbaar stellen.
 
 ## Data {#37B269C7}
 
 ### Formaat {#120E3368}
 
-<span style='color: #000000;'>Over het formaat waarin de data beschikbaar gesteld dient te worden, staat in de Open Data richtlijn dat dataproviders hun documenten beschikbaar stellen in de reeds bestaande formaten of talen en, indien mogelijk en passend, elektronisch, in formaten die open, machineleesbaar, toegankelijk, vindbaar en herbruikbaar zijn. Daarnaast dient het formaat zo veel mogelijk aan formele open standaarden te voldoen (artikel 5 (1)). </span><br/>
-<span style='color: #000000;'>In de uitvoeringsverordening HVD staat het wat specifieker, namelijk dat het een machineleesbaar formaat dient te zijn dat in de Unie of internationaal erkend is en dat beantwoorden aan de redelijke behoeften van hergebruikers (artikel 3 (1)). </span><br/>
-<span style='color: #000000;'>In de bijlage van de uitvoeringsverordening wordt bij alle thema’s, met uitzondering van sub thema Binnenwateren (van thema Mobiliteit), ook vermeld dat het een open formaat moet zijn. Daarnaast worden in de bijlage bij enkele thema’s specifieke formaten als voorbeelden genoemd. Het is niet verplicht deze specifieke formaten te gebruiken, maar het wordt wel geadviseerd.  </span><br/>
+Over het formaat waarin de data beschikbaar gesteld dient te worden, staat in de Open Data richtlijn dat dataproviders hun documenten beschikbaar stellen in de reeds bestaande formaten of talen en, indien mogelijk en passend, elektronisch, in formaten die open, machineleesbaar, toegankelijk, vindbaar en herbruikbaar zijn. Daarnaast dient het formaat zo veel mogelijk aan formele open standaarden te voldoen (artikel 5 (1)). <br/>
+
+In de uitvoeringsverordening HVD staat het wat specifieker, namelijk dat het een machineleesbaar formaat dient te zijn dat in de Unie of internationaal erkend is en dat beantwoorden aan de redelijke behoeften van hergebruikers (artikel 3 (1)).<br/>
+
+In de bijlage van de uitvoeringsverordening wordt bij alle thema’s, met uitzondering van sub thema Binnenwateren (van thema Mobiliteit), ook vermeld dat het een open formaat moet zijn. Daarnaast worden in de bijlage bij enkele thema’s specifieke formaten als voorbeelden genoemd. Het is niet verplicht deze specifieke formaten te gebruiken, maar het wordt wel geadviseerd.<br/>
+
 ### Licenties {#0A0CAE2E}
 
 Alle datasets worden beschikbaar gesteld onder de voorwaarden van een Creative Commons Public Domain Dedication (CC0) licentie of een Creative Commons BY 4.0-licentie of een gelijkwaardige of minder beperkende open licentie. Dit wordt vermeld in artikel 4, lid 3 van de uitvoeringsverordening. <br/>
+
 ## Metadata {#650CD6EF}
 
-De Open Data richtlijn geeft aan dat <span style='color: #000000;'>dataproviders hun data beschikbaar stellen samen met hun metadata en dat de metadata zo veel mogelijk aan formele open standaarden dienen te voldoen (artikel 5, lid 1). </span><br/>
+De Open Data richtlijn geeft aan dat dataproviders hun data beschikbaar stellen samen met hun metadata en dat de metadata zo veel mogelijk aan formele open standaarden dienen te voldoen (artikel 5, lid 1). <br/>
+
 In de uitvoeringsverordening zijn een aantal aanvullende vereisten voor de metadata beschreven:<br/>
 <ul><li>De dataset is in de metadata aangeduid als ‘high value dataset’ (artikel 3, lid 5); </li>
 <li>De metadata op internet beschikbaar volgens bestaande normen zoals één register of opendatacatalogus. (bijvoorbeeld NGR of data.overheid.nl) (artikel 5, lid 3a). </li>
@@ -54,20 +59,21 @@ Een update van een Europees afgestemd geoDCAT-AP, waarin ook de transformatie va
 
 Vooralsnog lijkt het opnemen van de aanduiding ‘high value dataset’ en het aangeven van het HVD thema in het metadata element trefwoord te voldoen.<br/>
 
-Voor de aanduiding ‘high value datase moet daarvoor de ELI <a href='http://data.europa.eu/eli/reg_impl/2023/138/oj'>http://data.europa.eu/eli/reg_impl/2023/138/oj</a> opgenomen worden.<br/>
+Voor de aanduiding ‘high value datase moet daarvoor de ELI http://data.europa.eu/eli/reg_impl/2023/138/oj opgenomen worden.<br/>
 
-Het trefwoord voor het HVD thema moet een waarde zijn uit <a href='https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category'>https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category</a>.
+Het trefwoord voor het HVD thema moet een waarde zijn uit <a href='https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category' target='_blank'>https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category</a>.
 
 Dit kan als volgt worden opgenomen in de metadata:
 
-<span style='color: #000080;'>&lt;gmd:MD_Keywords&gt;</span><br/>
-<span style='color: #333333;'> </span><span style='color: #000080;'>&lt;gmd:keyword&gt;</span><br/>
-<span style='color: #333333;'>    </span><span style='color: #000080;'>&lt;gmx:Anchor </span><span style='color: #008080;'>xlink:href</span><span style='color: #000080;'>=</span><span style='color: #DD1144;'>"http://data.europa.eu/eli/reg_impl/2023/138/oj"</span><span style='color: #000080;'>&gt;</span><span style='color: #333333;'>HVD</span><span style='color: #000080;'>&lt;/gmx:Anchor&gt;</span><br/>
-<span style='color: #333333;'> </span><span style='color: #000080;'>&lt;/gmd:keyword&gt;</span><br/>
-<span style='color: #000080;'>&lt;/</span><span style='color: #000080;'>gmd:MD_Keywords</span><span style='color: #000080;'>&gt;</span><br/>
-<span style='color: #000080;'>&lt;gmd:MD_Keywords&gt;</span><br/>
-<span style='color: #333333;'> </span><span style='color: #000080;'>&lt;gmd:keyword&gt;</span><br/>
-<span style='color: #333333;'>    </span><span style='color: #000080;'>&lt;gmx:Anchor </span><span style='color: #008080;'>xlink:href</span><span style='color: #000080;'>=</span><span style='color: #DD1144;'>"</span> <span style='color: #DD1144;'>https://op.europa.eu/web/eu-vocabularies/concept/-/resource?uri=http://data.europa.eu/bna/c_dd313021"</span><span style='color: #000080;'>&gt;</span><span style='color: #212529;'> Aardobservatie en milieu</span><span style='color: #000080;'>&lt;/gmx:Anchor&gt;</span><br/>
+<span style='color: #000080;'>
+&lt;gmd:MD_Keywords&gt;<br/>
+&lt;gmd:keyword&gt;<br/>
+&lt;gmx:Anchor xlink:href="http://data.europa.eu/eli/reg_impl/2023/138/oj"&gt;HVD&lt;/gmx:Anchor&gt;<br/>
+&lt;/gmd:keyword&gt;<br/>
+&lt;/gmd:MD_Keywords&gt;<br/>
+&lt;gmd:MD_Keywords&gt;<br/>
+&lt;gmd:keyword&gt;<br/>
+&lt;gmx:Anchor xlink:href="https://op.europa.eu/web/eu-vocabularies/concept/-/resource?uri=http://data.europa.eu/bna/c_dd313021"&gt; Aardobservatie en milieu&lt;/gmx:Anchor&gt;<br/>
 <span style='color: #333333;'> </span><span style='color: #000080;'>&lt;/gmd:keyword&gt;</span><br/>
 <span style='color: #333333;'> </span><span style='color: #000080;'>&lt;gmd:thesaurusName&gt;</span><br/>
 <span style='color: #333333;'>   </span><span style='color: #000080;'>&lt;gmd:CI_Citation&gt;</span><br/>
