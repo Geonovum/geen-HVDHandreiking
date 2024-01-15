@@ -64,8 +64,8 @@ In sommige gevallen kan een aangemerkte organisatie niet langer optreden als dat
 <li>een andere organisatie de dataset gaat beheren of beschikbaar stellen.</li>
 </ul>
 
-<!-- In de onderstaande figuur staat welke stappen doorlopen moeten worden om een aanmerking te wijzigen. Via het gesloten gedeelte van het  aanmerkingsregister kan de dataprovider een wijzigingsverzoek indienen.
-<!-- <img src='media/image1.png' alt='' style='width: 100%;'></img>
+<!-- In de onderstaande figuur staat welke stappen doorlopen moeten worden om een aanmerking te wijzigen. Via het gesloten gedeelte van het  aanmerkingsregister kan de dataprovider een wijzigingsverzoek indienen. -->
+<!-- <img src='media/image1.png' alt='' style='width: 100%;'></img> -->
 
 ## Organisatie {#32E2A2CE}
 
