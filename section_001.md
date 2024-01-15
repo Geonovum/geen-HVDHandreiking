@@ -20,29 +20,29 @@ De handreiking is daarmee momenteel meer technisch dan organisatorisch ingestoke
 
 Het HVD-implementatieproces is, na het aanmerken van de dataprovider en het vervolgens inrichten van de eigen organisatie, opgedeeld in drie technische stappen:<br/>
 
-<ul><li><a href='#37B269C7'><span style='color: #auto;'><u>Data</u></span></a></li>
+<ul><li><a href='#37B269C7'>Data</a></li>
 <li><a href='#650CD6EF'>Metadata</a></li>
-<li><a href='#37E1B35B'>Beschikbaar stellen</a></li>
+<li><a href='#37E1B35B'>Beschikbaar stellen</a>
   <ul><li>API</li>
   <li>Bulkdownload</li>
   <li>Overige documentatie</li></ul>
-</ul>
-
 </li>
 </ul>
 
-In hoofdstuk 4 is informatie over de afzonderlijke stappen die voor alle thema’s en datasets gelden beschreven. In de hoofdstukken daarna zijn dezelfde stappen beschreven met specifieke informatie die alleen geldt voor de respectievelijke thema’s. Per dataset moeten daarom de stappen doorlopen worden uit hoofdstuk 4 plus de stappen uit het betreffende hoofdstuk.<br/>
+In <a href='#207C051B'>hoofdstuk 4</a> is informatie over de afzonderlijke stappen die voor alle thema’s en datasets gelden beschreven. In de hoofdstukken daarna zijn dezelfde stappen beschreven met specifieke informatie die alleen geldt voor de respectievelijke thema’s. Per dataset moeten daarom de stappen doorlopen worden uit hoofdstuk 4 plus de stappen uit het betreffende hoofdstuk.<br/>
 
-Bij het publiceren van de uitvoeringsverordening HVD is geen rekening gehouden met processtappen die een technisch data-beheerder of geo-informatie specialist moet ondernemen om de data conform HVD te ontsluiten. Deze handreiking helpt de dataproviders om het werkproces inzichtelijk te maken. In hoofdstuk 12 is een checklist opgenomen van alle stappen die een dataprovider dient te doorlopen om een dataset inclusief services en documentatie te publiceren conform HVD vereisten.
+Bij het publiceren van de uitvoeringsverordening HVD is geen rekening gehouden met processtappen die een technisch data-beheerder of geo-informatie specialist moet ondernemen om de data conform HVD te ontsluiten. Deze handreiking helpt de dataproviders om het werkproces inzichtelijk te maken. In <a href='#2831FFFB'>hoofdstuk 12</a> is een checklist opgenomen van alle stappen die een dataprovider dient te doorlopen om een dataset inclusief services en documentatie te publiceren conform HVD vereisten.
 
 ## Deadlines {#55C1B036}
 
 Op 21 december 2022 is de Uitvoeringsverordening tot vaststelling van een lijst met specifieke high value datasets en de regelingen voor publicatie en hergebruik van die gegevens besloten. Deze uitvoeringsverordening heeft de kracht van wet ongeacht de omzetting van de Open Data richtlijn in de Nederlandse Wet Hergebruik van Overheidsinformatie. De wettelijke verplichtingen van de high value datasets staan daarmee volledig op zichzelf. De eisen in de uitvoeringsverordening HVD moeten uiterlijk per 9 juni 2024 door iedere lidstaat vervuld zijn. <br/>
-Het ministerie van Binnenlandse zaken stelt een gefaseerde aanpak voor, zie Nederlandse ambitie HVD.
+
+Het ministerie van Binnenlandse zaken stelt een gefaseerde aanpak voor, zie <a href='#3280DEA1'>Nederlandse ambitie HVD</a>.
 
 ## Bronnen {#6A547147}
 
 Achtergrond, doelen, vereisten en overige informatie over de HVD is te vinden in de onderstaande, door de EU gepubliceerde documenten:<br/>
+
 <ul><li><a href='https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32019L1024' target='_blank'>EU Open Data richtlijn (ODD)</a></li>
 <li><a href='https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32023R0138' target='_blank'>Uitvoeringsverordening tot vaststelling van een lijst met specifieke hoogwaardige datasets en de regelingen voor publicatie en hergebruik van die gegevens</a></li>
 <li>Algemene <a href='https://data.europa.eu/nl' target='_blank'>website van de EU over open data</a></li>
@@ -54,10 +54,12 @@ Achtergrond, doelen, vereisten en overige informatie over de HVD is te vinden in
 
 HVD is nog steeds in beweging. Dat betekent dat nog niet alles over HVD gezegd is. Als er aanpassingen zijn, dan wordt deze handreiking daarop aangepast.<br/>
 Verwacht hier echter niet alles over HVD. De insteek is om <i>die</i> informatie te verstrekken die nodig is om data volgens de uitvoeringsverordening HVD beschikbaar te kunnen stellen. De meest complete bron van informatie is de uitvoeringsverordening zelf. <br/>
+
 Het detail van de handreiking slaat het software-niveau over; het is geen <i>how to</i> die uitlegt hoe je in specifieke software bepaalde functionaliteit oproept, of uitvoert. Wel reikt de handreiking principes of mechanismen aan.
 
 ### HVD Helpdesk {#2BBF3ADD}
 
 We proberen via deze handreiking zoveel mogelijk informatie over HVD te delen. Heb je toch nog een vraag over HVD, stuur dan een e-mail naar <a href='mailto:HVD@geonovum.nl' target='_blank'>HVD@geonovum.nl</a>.<br/>
-In de <a href='https://docs.geostandaarden.nl/eu/handreiking-EU-informatie/' target='_blank'>Handreiking EU Informatie m.b.t. digitale en data-strategie</a> is zoals al eerder aangegeven algemene informatie over <a href='https://docs.geostandaarden.nl/eu/handreiking-EU-informatie/' target='_blank'>HVD</a> te vinden.
+
+In de Handreiking EU Informatie m.b.t. digitale en data-strategie is zoals al eerder aangegeven algemene informatie over <a href='https://docs.geostandaarden.nl/eu/handreiking-EU-informatie/#high-value-data-lijst' target='_blank'>HVD</a> te vinden.
 
