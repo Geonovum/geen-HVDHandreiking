@@ -42,7 +42,7 @@ Het ministerie van Binnenlandse zaken stelt een gefaseerde aanpak voor, zie <a h
 ## Bronnen {#6A547147}
 
 Achtergrond, doelen, vereisten en overige informatie over de HVD is te vinden in de onderstaande, door de EU gepubliceerde documenten:<br/>
-
+<br/>
 <ul><li><a href='https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32019L1024' target='_blank'>EU Open Data richtlijn (ODD)</a></li>
 <li><a href='https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32023R0138' target='_blank'>Uitvoeringsverordening tot vaststelling van een lijst met specifieke hoogwaardige datasets en de regelingen voor publicatie en hergebruik van die gegevens</a></li>
 <li>Algemene <a href='https://data.europa.eu/nl' target='_blank'>website van de EU over open data</a></li>
