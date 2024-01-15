@@ -27,21 +27,22 @@ In de uitvoeringsverordening zijn een aantal aanvullende vereisten voor de metad
 
 In de paragraaf Beschikbaar stellen – Overige documentatie is te lezen dat er een aantal documenten en andere informatie beschikbaar gesteld moeten worden. Hieruit kan worden afgeleid dat in de metadata aanvullende informatie opgenomen moet worden zodat deze aanvullende documenten voor gebruikers vindbaar zijn. Hoewel dat geen harde vereiste is, wordt geadviseerd ook in de metadata op te nemen:<br/>
 <ul><li>Contactpunt voor vragen en kwesties in verband met de API; </li>
-<li>Een verwijzing naar de verplichte documentatie (zie ook <a href='#409368F9'>Beschrijven van de HVD specifieke metadata in ISO 19115</a>.</li>
+<li>Een verwijzing naar de verplichte documentatie (zie ook <a href='#409368F9'>Beschrijven van de HVD specifieke metadata in ISO 19115</a>).</li>
 </ul>
 
 ### Metadata standaarden {#2E19E63B}
 
 Algemeen geldt dus dat <span style='color: #000000;'>data voorzien dient te worden van metadata, dat de metadata zo veel mogelijk aan formele open standaarden dient te voldoen en dat </span>de metadata op internet beschikbaar wordt gemaakt wordt volgens bestaande normen. <br/>
+
 Voor het beschrijven van ruimtelijke data en dataservices, wordt op dit moment het Nederlands metadata profiel op ISO 19115 voor geografie versie 2.1.0 en het  Nederlands metadata profiel op ISO 19119 voor services versie 2.1.0 toegepast.<br/>
 
 Ten behoeve van de Europese INSPIRE regelgeving is ook een metadata profiel opgesteld. De vereisten uit het INSPIRE profiel zijn opgenomen in deze Nederlandse profielen zodat, door te voldoen aan het Nederlandse profiel, tevens aan de Europese INSPIRE vereisten voldaan kan worden.<br/>
-Beide profielen staan op de <a href='https://forumstandaardisatie.nl/open-standaarden/' target='_blank'><a href='https://forumstandaardisatie.nl/open-standaarden/' target='_blank'>Pas-toe-of-leg-uit-lijst</a></a> van het College Standaardisatie.<br/>
+
+Beide profielen staan op de <a href='https://forumstandaardisatie.nl/open-standaarden/' target='_blank'>Pas-toe-of-leg-uit-lijst</a> van het College Standaardisatie.<br/>
 
 Voor ruimtelijke data en dataservices die conform deze metadata profielen de datasets en services (API’s) beschrijven kunnen hiermee voldoen aan vereisten rondom metadata uit de Uitvoeringsverordening HVD. Daarvoor is het wel noodzakelijk de specifieke extra informatie voor HVD ook in de metadata wordt opgenomen. Het gaat onder andere om de aanduiding van ‘high value dataset’, contactinformatie en documentatie. Dit kan in bestaande metadata-elementen opgenomen worden, hiervoor is geen wijziging van de Nederlandse metadata profielen nodig.<br/>
 
-De metadata kan voor andere domeinen conform andere bestaande normen (standaarden en profielen) beschikbaar worden gemaakt. <br/>
-Als er geen gangbare, domein specifieke metadata standaard is, kan de metadata aangemaakt worden conform DCAT-AP-NL.
+De metadata kan voor andere domeinen conform andere bestaande normen (standaarden en profielen) beschikbaar worden gemaakt. Als er geen gangbare, domein specifieke metadata standaard is, kan de metadata aangemaakt worden conform DCAT-AP-NL.
 
 ### Standaard voor het uitwisselen van metadata tussen metadata portalen {#65FBDE9D}
 
@@ -59,11 +60,11 @@ Ruimtelijke data en dataservices (API’s) waarvan de metadata wordt beschreven 
 
 Een update van een Europees afgestemd geoDCAT-AP, waarin ook de transformatie van ISO metadata naar DCAT-AP-HVD is vastgelegd is momenteel nog niet beschikbaar.<br/>
 
-#### De aanduiding '<i>high value dataset</i>' {#203BD228}
+#### De aanduiding 'high value dataset' {#203BD228}
 
 Vooralsnog lijkt het opnemen van de aanduiding ‘high value dataset’ en het aangeven van het HVD thema in het metadata element trefwoord te voldoen.<br/>
 
-Voor de aanduiding ‘high value datase moet daarvoor de ELI http://data.europa.eu/eli/reg_impl/2023/138/oj opgenomen worden.<br/>
+Voor de aanduiding ‘high value dataset' moet daarvoor de ELI http://data.europa.eu/eli/reg_impl/2023/138/oj opgenomen worden.<br/>
 
 Het trefwoord voor het HVD thema moet een waarde zijn uit <a href='https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category' target='_blank'>https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category</a>.
 
