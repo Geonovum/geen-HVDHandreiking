@@ -7,15 +7,19 @@ Geonovum ondersteunt het Ministerie van Binnenlandse Zaken en Koninkrijksrelatie
 Deze handreiking HVD is een handreiking met informatie om te voldoen aan de (technische) HVD-verplichtingen. Deze HVD-handreiking is bedoeld voor de HVD-dataproviders, die datasets voor HVD ontsluiten. Voor meer algemene informatie over HVD verwijzen we graag naar de <a href='https://docs.geostandaarden.nl/eu/handreiking-EU-informatie/#high-value-data-lijst' target='_blank'>HVD paragraaf</a> in de <a href='https://docs.geostandaarden.nl/eu/handreiking-EU-informatie/' target='_blank'>Handreiking EU informatie m.b.t. digitale en data-strategie</a>.<br/>
 
 De opbouw van de HVD-handreiking is gebaseerd op de verschillende processtappen die de dataproviders doorlopen. <br/>
+
 ## Doelgroep {#10AF0A77}
 
 Deze HVD-handreiking bedient meerdere doelgroepen, maar richt zich in eerste instantie op partijen die verantwoordelijk zijn voor de uitvoering van HVD. Daarnaast is de informatie ook relevant voor andere partijen die aan slag gaan met HVD. Het belangrijkste doel van deze handreiking is om het werkproces inzichtelijk te maken en kennis hierover op een overzichtelijke manier ter beschikking te stellen.<br/>
+
 ### Uitvoerders {#4814E9DB}
 
 Onder partijen die verantwoordelijk zijn voor de uitvoering verstaan wij die personen en organisaties die praktisch en technisch met HVD aan de slag gaan. Dat gaat hier concreet om de Nederlandse dataproviders. Zij zullen de processtappen uitvoeren die nodig zijn om te voldoen aan de uitvoeringsverordening HVD. Ook zijn zij verantwoordelijk voor het publiceren van de metadata en aanvullende documentatie en het ontsluiten van de data via API’s. Dit kan door verschillende personen binnen een organisatie uitgevoerd worden, zoals data-beheerders, applicatie-specialisten, dba’ers van ruimtelijke databases en ICT'ers.<br/>
+
 ### Beleidsmakers {#21BEA824}
 
 De handreiking is daarmee momenteel meer technisch dan organisatorisch ingestoken. Ook beleidmakers en managers krijgen met HVD te maken. Zij zullen ook praktisch met HVD aan de slag gaan, maar op een andere manier dan de technische beheerders, GIS-specialisten en ICT'ers. Toch kan het verhelderend zijn de handreiking te lezen om een idee te krijgen van het type werk, dat voor HVD moet worden uitgevoerd.<br/>
+
 ## Processtappen {#6E27898C}
 
 Het HVD-implementatieproces is, na het aanmerken van de dataprovider en het vervolgens inrichten van de eigen organisatie, opgedeeld in drie technische stappen:<br/>
@@ -53,6 +57,7 @@ Achtergrond, doelen, vereisten en overige informatie over de HVD is te vinden in
 ### HVD is nog steeds in beweging {#3567F8EA}
 
 HVD is nog steeds in beweging. Dat betekent dat nog niet alles over HVD gezegd is. Als er aanpassingen zijn, dan wordt deze handreiking daarop aangepast.<br/>
+
 Verwacht hier echter niet alles over HVD. De insteek is om <i>die</i> informatie te verstrekken die nodig is om data volgens de uitvoeringsverordening HVD beschikbaar te kunnen stellen. De meest complete bron van informatie is de uitvoeringsverordening zelf. <br/>
 
 Het detail van de handreiking slaat het software-niveau over; het is geen <i>how to</i> die uitlegt hoe je in specifieke software bepaalde functionaliteit oproept, of uitvoert. Wel reikt de handreiking principes of mechanismen aan.
