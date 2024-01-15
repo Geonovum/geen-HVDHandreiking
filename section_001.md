@@ -3,7 +3,9 @@
 In de Europese Open Data Richtlijn (EU) 2019/1024 wijst de Europese Commissie een lijst met thematische categorieën van hoogwaardige datasets (de ‘High Value Datasets’ (HVD)) aan. Hoofddoel van de HVD is om ervoor te zorgen dat overheidsgegevens met een groot sociaaleconomisch potentieel bij minimale wettelijke en technische beperkingen kosteloos beschikbaar worden gesteld voor hergebruik. Op 21 december 2022 is de Uitvoeringsverordening HVD besloten die wettelijke verplichtingen oplegt betreffende de high value datasets.<br/>
 
 Geonovum ondersteunt het Ministerie van Binnenlandse Zaken en Koninkrijksrelaties en de Nederlandse dataproviders bij de invoering van HVD in Nederland.<br/>
+
 Deze handreiking HVD is een handreiking met informatie om te voldoen aan de (technische) HVD-verplichtingen. Deze HVD-handreiking is bedoeld voor de HVD-dataproviders, die datasets voor HVD ontsluiten. Voor meer algemene informatie over HVD verwijzen we graag naar de <a href='https://docs.geostandaarden.nl/eu/handreiking-EU-informatie/#high-value-data-lijst' target='_blank'>HVD paragraaf</a> in de <a href='https://docs.geostandaarden.nl/eu/handreiking-EU-informatie/' target='_blank'>Handreiking EU informatie m.b.t. digitale en data-strategie</a>.<br/>
+
 De opbouw van de HVD-handreiking is gebaseerd op de verschillende processtappen die de dataproviders doorlopen. <br/>
 ## Doelgroep {#10AF0A77}
 
@@ -18,11 +20,12 @@ De handreiking is daarmee momenteel meer technisch dan organisatorisch ingestoke
 
 Het HVD-implementatieproces is, na het aanmerken van de dataprovider en het vervolgens inrichten van de eigen organisatie, opgedeeld in drie technische stappen:<br/>
 
-<ul><li><a href='https://docs.geostandaarden.nl/eu/INSPIRE-handreiking/' target='_blank'><span style='color: #auto;'><u>Data</u></span></a></li>
-<li><a href='https://docs.geostandaarden.nl/eu/INSPIRE-handreiking/' target='_blank'><span style='color: #auto;'><u>Metadata</u></span></a></li>
-<li>Beschikbaar stellen<ul><li>API</li>
-<li>Bulkdownload</li>
-<li>Overige documentatie</li>
+<ul><li><a href='#37B269C7'><span style='color: #auto;'><u>Data</u></span></a></li>
+<li><a href='#650CD6EF'>Metadata</a></li>
+<li><a href='#37E1B35B'>Beschikbaar stellen</a></li>
+  <ul><li>API</li>
+  <li>Bulkdownload</li>
+  <li>Overige documentatie</li></ul>
 </ul>
 
 </li>
