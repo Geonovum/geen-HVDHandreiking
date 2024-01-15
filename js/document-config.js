@@ -15,9 +15,19 @@ var documentConfig =
   ],
   github: "https://github.com/geonovum/geen-HVDHandreiking/",
   issueBase: "https://github.com/geonovum/geen-HVDHandreiking/issues/",
-  authors: [
+  authors: [   
+   {
+      name:       "Wideke Boersma",
+      company:    "Geonovum",
+      companyURL: "https://www.geonovum.nl"
+    },
     {
       name: "Annita Vijverberg",
+      company: "Geonovum",
+      companyURL: "https://www.Geonovum.nl/"
+    },
+    {
+      name: "Ine de Visser",
       company: "Geonovum",
       companyURL: "https://www.Geonovum.nl/"
     }
