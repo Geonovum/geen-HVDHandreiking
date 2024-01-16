@@ -64,16 +64,17 @@ Een update van een Europees afgestemd geoDCAT-AP, waarin ook de transformatie va
 
 Vooralsnog lijkt het opnemen van de aanduiding ‘high value dataset’ en het aangeven van het HVD thema in het metadata element trefwoord te voldoen.<br/>
 
-Voor de aanduiding ‘high value dataset' moet daarvoor de ELI "http://data.europa.eu/eli/reg_impl/2023/138/oj" opgenomen worden.<br/>
+Voor de aanduiding ‘high value dataset' moet daarvoor de ELI `http://data.europa.eu/eli/reg_impl/2023/138/oj` opgenomen worden.<br/>
 
 Het trefwoord voor het HVD thema moet een waarde zijn uit <a href='https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category' target='_blank'>https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category</a>.
 
-Dit kan als volgt worden opgenomen in de metadata:
+Dit kan als volgt worden opgenomen in de metadata:<br/>
+
 <code>
 <span style='color: #000080;'>
 &lt;gmd:MD_Keywords&gt;<br/>
 &lt;gmd:keyword&gt;<br/>
-&lt;gmx:Anchor xlink:href="http://data.europa.eu/eli/reg_impl/2023/138/oj"&gt;HVD&lt;/gmx:Anchor&gt;<br/>
+&lt;gmx:Anchor xlink:href=`"http://data.europa.eu/eli/reg_impl/2023/138/oj"`&gt;HVD&lt;/gmx:Anchor&gt;<br/>
 &lt;/gmd:keyword&gt;<br/>
 &lt;/gmd:MD_Keywords&gt;<br/>
 &lt;gmd:MD_Keywords&gt;<br/>
