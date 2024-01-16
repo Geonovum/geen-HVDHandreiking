@@ -69,7 +69,7 @@ Voor de aanduiding ‘high value dataset' moet daarvoor de ELI http://data.europ
 Het trefwoord voor het HVD thema moet een waarde zijn uit <a href='https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category' target='_blank'>https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category</a>.
 
 Dit kan als volgt worden opgenomen in de metadata:
-
+<!--
 <span style='color: #000080;'>
 &lt;gmd:MD_Keywords&gt;<br/>
 &lt;gmd:keyword&gt;<br/>
@@ -79,15 +79,15 @@ Dit kan als volgt worden opgenomen in de metadata:
 &lt;gmd:MD_Keywords&gt;<br/>
 &lt;gmd:keyword&gt;<br/>
 &lt;gmx:Anchor xlink:href="https://op.europa.eu/web/eu-vocabularies/concept/-/resource?uri=http://data.europa.eu/bna/c_dd313021"&gt; Aardobservatie en milieu&lt;/gmx:Anchor&gt;<br/>
-<span style='color: #333333;'> </span><span style='color: #000080;'>&lt;/gmd:keyword&gt;</span><br/>
-<span style='color: #333333;'> </span><span style='color: #000080;'>&lt;gmd:thesaurusName&gt;</span><br/>
-<span style='color: #333333;'>   </span><span style='color: #000080;'>&lt;gmd:CI_Citation&gt;</span><br/>
-<span style='color: #333333;'>      </span><span style='color: #000080;'>&lt;gmd:title&gt;</span><br/>
-<span style='color: #333333;'>         </span><span style='color: #000080;'>&lt;gmx:Anchor </span><span style='color: #008080;'>xlink:href</span><span style='color: #000080;'>=</span><span style='color: #DD1144;'>"http://publications.europa.eu/resource/dataset/high-value-dataset-category" </span><span style='color: #0D0D0D;'>&gt;</span><span style='color: #333333;'>High-value dataset categories </span><span style='color: #000080;'>&lt;/gmx:Anchor&gt;&gt;</span><br/>
-<span style='color: #333333;'>      </span><span style='color: #000080;'>&lt;/gmd:title&gt;</span><br/>
-<span style='color: #333333;'>      </span><span style='color: #000080;'>&lt;gmd:date&gt;</span><br/>
-<span style='color: #333333;'>         </span><span style='color: #000080;'>&lt;gmd:CI_Date&gt;</span><br/>
-<span style='color: #333333;'>             </span><span style='color: #000080;'>&lt;gmd:date&gt;</span><br/>
+&lt;/gmd:keyword&gt;<br/>
+&lt;gmd:thesaurusName&gt;<br/>
+&lt;gmd:CI_Citation&gt;<br/>
+&lt;gmd:title&gt;<br/>
+&lt;gmx:Anchor xlink:href="http://publications.europa.eu/resource/dataset/high-value-dataset-category" &gt;High-value dataset categories &lt;/gmx:Anchor&gt;&gt;<br/>
+&lt;/gmd:title&gt;<br/>
+&lt;gmd:date&gt;<br/>
+&lt;gmd:CI_Date&gt;<br/>
+&lt;gmd:date&gt;<br/>
 <span style='color: #333333;'>                  </span><span style='color: #000080;'>&lt;gco:Date&gt;</span><span style='color: #333333;'>2023-09-27</span><span style='color: #000080;'>&lt;/gco:Date&gt;</span><br/>
 <span style='color: #333333;'>             </span><span style='color: #000080;'>&lt;/gmd:date&gt;</span><br/>
 <span style='color: #333333;'>             </span><span style='color: #000080;'>&lt;gmd:dateType&gt;</span><br/>
@@ -98,7 +98,7 @@ Dit kan als volgt worden opgenomen in de metadata:
 <span style='color: #333333;'>   </span><span style='color: #000080;'>&lt;/gmd:CI_Citation&gt;</span>
 
 <span style='color: #000080;'>&lt;/gmd:thesaurusName&gt;</span>
-
+-->
 #### Contactinformatie
 De contactinformatie voor vragen over de API kan in de metadata- elementen behorende bij “Verantwoordelijke organisatie bron” worden opgenomen. Daarbij als rol pointOfContact gebruiken.
 
