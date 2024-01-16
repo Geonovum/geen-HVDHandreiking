@@ -159,9 +159,9 @@ Kortom, datasets ontsloten via INSPIRE ‘direct access download services’, ku
 Uitzonderingen daargelaten moeten veel van de datasets naast via een API ook als bulkdownload beschikbaar worden gesteld. Bulksdownload wordt in de uitvoeringsverordening gedefinieerd als: “een functie die het mogelijk maakt een volledige dataset in een of meer pakketten te downloaden.”<br/>
 
 INSPIRE dataproviders met HDV datasets kunnen de INSPIRE ‘network services’ op de volgende wijze inzetten voor de HDV: <br/>
-<table style='width: 277pt;'><caption></caption>
-<colgroup><col id='col1' style='width: 64%;'>
-<col id='col2' style='width: 36%;'>
+<table style='width: 282pt;'><caption></caption>
+<colgroup><col id='col1' style='width: 65%;'>
+<col id='col2' style='width: 35%;'>
 </colgroup>
 <tbody valign='top'><tr><td align='left' style='border-top: 0.5pt solid #A8D08D; border-left: 0.5pt solid #A8D08D; border-bottom: 0.5pt solid #A8D08D; border-right: 0.5pt solid #A8D08D; background-color: #70AD47;'>INSPIRE ‘network service’<br/>
 </td>
