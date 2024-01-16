@@ -4,7 +4,7 @@ Naast de algemeen geldende vereisten die benoemd zijn in het hoofdstuk <a href='
 
 ## Data {#2AC56743}
 
-In de <a href='https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32023R0138d1e32-48-1' target='_blank'>bijlage van de uitvoeringverordening</a> staat vermeld welke datasets onder dit thema vallen en worden de specificaties van de datasets opgesomd. Bij dit thema gelden specificaties over actualiseringsfrequentie en –termijn, generalisatieniveaus (bij vervoersnetwerken) en granulariteit en sleutelkenmerken (bij binnenwateren).<br/>
+In de <a href='https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32023R0138#d1e32-48-1' target='_blank'>bijlage van de uitvoeringverordening</a> staat vermeld welke datasets onder dit thema vallen en worden de specificaties van de datasets opgesomd. Bij dit thema gelden specificaties over actualiseringsfrequentie en –termijn, generalisatieniveaus (bij vervoersnetwerken) en granulariteit en sleutelkenmerken (bij binnenwateren).<br/>
 
 Voor datasets over vervoersnetwerken geldt dat de datasets gebruik moeten maken van in de Unie of internationaal erkende en openbaar gedocumenteerde gecontroleerde woordenlijsten en taxonomieën, voor zover beschikbaar.<br/>
 
