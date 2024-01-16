@@ -32,23 +32,23 @@ In de paragraaf Beschikbaar stellen – Overige documentatie is te lezen dat er 
 
 ### Metadata standaarden {#2E19E63B}
 
-Algemeen geldt dus dat <span style='color: #000000;'>data voorzien dient te worden van metadata, dat de metadata zo veel mogelijk aan formele open standaarden dient te voldoen en dat </span>de metadata op internet beschikbaar wordt gemaakt wordt volgens bestaande normen. <br/>
+Algemeen geldt dus dat data voorzien dient te worden van metadata, dat de metadata zo veel mogelijk aan formele open standaarden dient te voldoen en dat de metadata op internet beschikbaar wordt gemaakt wordt volgens bestaande normen. <br/>
 
-Voor het beschrijven van ruimtelijke data en dataservices, wordt op dit moment het Nederlands metadata profiel op ISO 19115 voor geografie versie 2.1.0 en het  Nederlands metadata profiel op ISO 19119 voor services versie 2.1.0 toegepast.<br/>
+Voor het beschrijven van ruimtelijke data en dataservices, wordt op dit moment het <a href='https://docs.geostandaarden.nl/md/mdprofiel-iso19115/' target='_blank'>Nederlands metadata profiel op ISO 19115 voor geografie versie 2.1.0</a> en het <a href='https://docs.geostandaarden.nl/md/mdprofiel-iso19119/' target='_blank'>Nederlands metadata profiel op ISO 19119 voor services versie 2.1.0 toegepast.</a><br/>
 
 Ten behoeve van de Europese INSPIRE regelgeving is ook een metadata profiel opgesteld. De vereisten uit het INSPIRE profiel zijn opgenomen in deze Nederlandse profielen zodat, door te voldoen aan het Nederlandse profiel, tevens aan de Europese INSPIRE vereisten voldaan kan worden.<br/>
 
 Beide profielen staan op de <a href='https://forumstandaardisatie.nl/open-standaarden/' target='_blank'>Pas-toe-of-leg-uit-lijst</a> van het College Standaardisatie.<br/>
 
-Voor ruimtelijke data en dataservices die conform deze metadata profielen de datasets en services (API’s) beschrijven kunnen hiermee voldoen aan vereisten rondom metadata uit de Uitvoeringsverordening HVD. Daarvoor is het wel noodzakelijk de specifieke extra informatie voor HVD ook in de metadata wordt opgenomen. Het gaat onder andere om de aanduiding van ‘high value dataset’, contactinformatie en documentatie. Dit kan in bestaande metadata-elementen opgenomen worden, hiervoor is geen wijziging van de Nederlandse metadata profielen nodig.<br/>
+Voor ruimtelijke data en dataservices die conform deze metadata profielen de datasets en services (API’s) beschrijven kunnen hiermee voldoen aan vereisten rondom metadata uit de <a href='https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32023R0138' target='_blank'>Uitvoeringsverordening HVD</a>. Daarvoor is het wel noodzakelijk de specifieke extra informatie voor HVD ook in de metadata wordt opgenomen. Het gaat onder andere om de aanduiding van ‘high value dataset’, contactinformatie en documentatie. Dit kan in bestaande metadata-elementen opgenomen worden, hiervoor is geen wijziging van de Nederlandse metadata profielen nodig.<br/>
 
 De metadata kan voor andere domeinen conform andere bestaande normen (standaarden en profielen) beschikbaar worden gemaakt. Als er geen gangbare, domein specifieke metadata standaard is, kan de metadata aangemaakt worden conform DCAT-AP-NL.
 
 ### Standaard voor het uitwisselen van metadata tussen metadata portalen {#65FBDE9D}
 
-In Europa is het applicatie profiel (DCAT-AP) ontwikkeld op de internationale DCAT standaard, voor het uitwisselen van metadata tussen Europese dataportalen. De transformatie van INSPIRE metadata conform het Nederlands profiel op ISO 19115 naar DCAT, wordt uitgevoerd op catalog/ dataportaal niveau. Individuele beheerders van metadata hoeven hier geen actie op te ondernemen. Dit geldt ook voor de metadata conform het Nederlands profiel op ISO 19119.<br/>
+In Europa is het applicatie profiel (<A href='https://semiceu.github.io/DCAT-AP/releases/3.0.0/' target='_blank'>DCAT-AP</a>) ontwikkeld op de internationale DCAT standaard, voor het uitwisselen van metadata tussen Europese dataportalen. De transformatie van INSPIRE metadata conform het Nederlands profiel op ISO 19115 naar DCAT, wordt uitgevoerd op catalog/ dataportaal niveau. Individuele beheerders van metadata hoeven hier geen actie op te ondernemen. Dit geldt ook voor de metadata conform het Nederlands profiel op ISO 19119.<br/>
 
-Er is voor het geo en het statistische domein op Europees niveau ook een applicatie profiel gemaakt, waarmee het mogelijk wordt om de domein specifieke metadata, zoals de ISO 19115 metadata voor ruimtelijke data, te transformeren naar het generieke DCAT-AP. Voor het uitwisselen van de HVD specifieke metadata is een extensie op DCAT-AP gemaakt; DCAT-AP-HVD zodat daarmee ook aan de vereisten vanuit de uitvoeringsverordening voor hoogwaarde datasets kan worden voldaan. Een update van geoDCAT-AP, waarin ook de transformatie van ISO metadata naar DCAT-AP-HVD is vastgelegd, is momenteel nog niet beschikbaar.<br/>
+Er is voor het geo en het statistische domein op Europees niveau ook een applicatie profiel gemaakt, waarmee het mogelijk wordt om de domein specifieke metadata, zoals de ISO 19115 metadata voor ruimtelijke data, te transformeren naar het generieke DCAT-AP. Voor het uitwisselen van de HVD specifieke metadata is een extensie op DCAT-AP gemaakt; <a href='https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/' target='_blank'>DCAT-AP-HVD</a> zodat daarmee ook aan de vereisten vanuit de uitvoeringsverordening voor hoogwaardige datasets kan worden voldaan. Een update van geoDCAT-AP, waarin ook de transformatie van ISO metadata naar DCAT-AP-HVD is vastgelegd, is momenteel nog niet beschikbaar.<br/>
 
 ### DCAT-AP-NL {#6E5518C4}
 
