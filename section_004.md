@@ -102,7 +102,7 @@ Dit kan als volgt worden opgenomen in de metadata:
 #### Contactinformatie
 De contactinformatie voor vragen over de API kan in de metadata- elementen behorende bij “Verantwoordelijke organisatie bron” worden opgenomen. Daarbij als rol pointOfContact gebruiken.
 
-#### De gebruiksvoorwaarden}
+#### De gebruiksvoorwaarden
 
 De licentie kan zoals gebruikelijk worden opgenomen bij het element “juridische toegangsrestricties” in de metadata. Deze moet echter wel een Creative Commons Public Domain Dedication (CC0) licentie of een Creative Commons BY 4.0-licentie of een gelijkwaardige of minder beperkende open licentie zijn. Andere gebruiksrestricties.
 
@@ -123,7 +123,7 @@ Als er voor de HVD, data van verschillende generalisatieniveaus,  granulariteit,
 ### API {#289E9E05}
 
 Zowel in de Open Data richtlijn (artikel 5, lid 8) als in de uitvoeringsverordening (artikel 3, lid 1) staat dat de datasets die onder HVD vallen, via een Application Programming interface (API) beschikbaar gesteld moeten worden. Een API is in Open Data richtlijn gedefinieerd als "een set functies, procedures, definities en protocollen voor communicatie tussen machines en de naadloze uitwisseling van data." Er is geen technische verordening voor de functionaliteit en techniek voor API’s opgesteld. Er wordt dus geen ‘technische’ keuze of API stijl voor API’s voorgeschreven. Voor de thema’s geodata, aardobservatie en milieu en mobiliteit is aangegeven dat het gaat om een API “zoals direct access download services op basis van Richtlijn 2007/2/EG” (INSPIRE). De INSPIRE direct access download service implementatie maakt het mogelijk om slechts een deel van de dataset door eigen selecties te downloaden. INSPIRE dataproviders met HDV datasets kunnen de INSPIRE ‘network services’ op de volgende wijze inzetten voor de HDV: <br/>
-<table style='width: 228.75pt;'><caption></caption>
+<table style='width: 275pt;'><caption></caption>
 <colgroup><col id='col1' style='width: 74.46994535519126%;'>
 <col id='col2' style='width: 25.530054644808743%;'>
 </colgroup>
@@ -149,12 +149,14 @@ Zowel in de Open Data richtlijn (artikel 5, lid 8) als in de uitvoeringsverorden
 </tbody>
 </table>
 
-De internationale standaarden voor INSPIRE API's zijn door het OGC opgesteld. Deze eerste generatie OWS standaarden, zoals WFS, WCS en SOS, zijn gebaseerd op RPC en XML. Deze standaarden zijn nog steeds geldig en in gebruik, maar worden gaandeweg vervangen door de nieuwe generatie. Deze nieuwe generatie, de OGC API’s zijn gebaseerd op algemene Web architectuur, i.e. REST. In de algemene Web architectuur wordt ook de <a href='https://docs.geostandaarden.nl/api/API-Strategie/' target='_blank'>Nederlandse API strategie</a> van de overheid toegepast.  <br/>
+De internationale standaarden voor INSPIRE API's zijn door het OGC opgesteld. Deze eerste generatie OWS standaarden, zoals WFS, WCS en SOS, zijn gebaseerd op RPC en XML. Deze standaarden zijn nog steeds geldig en in gebruik, maar worden gaandeweg vervangen door de nieuwe generatie. Deze nieuwe generatie, de OGC API’s zijn gebaseerd op algemene Web architectuur, i.e. REST. In de algemene Web architectuur wordt ook de <a href='https://docs.geostandaarden.nl/api/API-Strategie/' target='_blank'>Nederlandse API strategie</a> van de overheid toegepast.<br/>
+
 Kortom, datasets ontsloten via INSPIRE ‘direct access download services’, kunnen eveneens als HDV API’s worden ingezet. Er zijn geen voorgeschreven technische implementatieregels vanuit ODD en HDV, maar wel een verwachting dat API’s  meegroeien met de redelijke wensen van hergebruikers. Om te voldoen aan de behoefte van hergebruikers is het advies om het gebruik van REST API’s conform de Nederlandse API-strategie en conform de OGC API standaarden zoals STA en OGC API Features (INSPIRE Good Practises) te implementeren en stimuleren. Deze nieuwe generatie API's zijn voor een veel breder publiek toegankelijk voor hergebruik. Daarnaast is het advies om de brede Europese ontwikkelingen op het gebied van API implementatie te volgen en te zorgen dat de Nederlandse API belangen worden gewaarborgd.  
 
 ### Bulkdownload {#420E7103}
 
 Uitzonderingen daargelaten moeten veel van de datasets naast via een API ook als bulkdownload beschikbaar worden gesteld. Bulksdownload wordt in de uitvoeringsverordening gedefinieerd als: “een functie die het mogelijk maakt een volledige dataset in een of meer pakketten te downloaden.”<br/>
+
 INSPIRE dataproviders met HDV datasets kunnen de INSPIRE ‘network services’ op de volgende wijze inzetten voor de HDV: <br/>
 <table style='width: 274.5pt;'><caption></caption>
 <colgroup><col id='col1' style='width: 62.568306010928964%;'>
