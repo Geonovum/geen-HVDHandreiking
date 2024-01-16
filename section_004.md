@@ -34,7 +34,7 @@ In de paragraaf Beschikbaar stellen – Overige documentatie is te lezen dat er 
 
 Algemeen geldt dus dat data voorzien dient te worden van metadata, dat de metadata zo veel mogelijk aan formele open standaarden dient te voldoen en dat de metadata op internet beschikbaar wordt gemaakt wordt volgens bestaande normen. <br/>
 
-Voor het beschrijven van ruimtelijke data en dataservices, wordt op dit moment het <a href='https://docs.geostandaarden.nl/md/mdprofiel-iso19115/' target='_blank'>Nederlands metadata profiel op ISO 19115 voor geografie versie 2.1.0</a> en het <a href='https://docs.geostandaarden.nl/md/mdprofiel-iso19119/' target='_blank'>Nederlands metadata profiel op ISO 19119 voor services versie 2.1.0 toegepast.</a><br/>
+Voor het beschrijven van ruimtelijke data en dataservices, wordt op dit moment het <a href='https://docs.geostandaarden.nl/md/mdprofiel-iso19115/' target='_blank'>Nederlands metadata profiel op ISO 19115 voor geografie versie 2.1.0</a> en het <a href='https://docs.geostandaarden.nl/md/mdprofiel-iso19119/' target='_blank'>Nederlands metadata profiel op ISO 19119 voor services versie 2.1.0</a> toegepast.<br/>
 
 Ten behoeve van de Europese INSPIRE regelgeving is ook een metadata profiel opgesteld. De vereisten uit het INSPIRE profiel zijn opgenomen in deze Nederlandse profielen zodat, door te voldoen aan het Nederlandse profiel, tevens aan de Europese INSPIRE vereisten voldaan kan worden.<br/>
 
@@ -64,12 +64,12 @@ Een update van een Europees afgestemd geoDCAT-AP, waarin ook de transformatie va
 
 Vooralsnog lijkt het opnemen van de aanduiding ‘high value dataset’ en het aangeven van het HVD thema in het metadata element trefwoord te voldoen.<br/>
 
-Voor de aanduiding ‘high value dataset' moet daarvoor de ELI http://data.europa.eu/eli/reg_impl/2023/138/oj opgenomen worden.<br/>
+Voor de aanduiding ‘high value dataset' moet daarvoor de ELI "http://data.europa.eu/eli/reg_impl/2023/138/oj" opgenomen worden.<br/>
 
 Het trefwoord voor het HVD thema moet een waarde zijn uit <a href='https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category' target='_blank'>https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category</a>.
 
 Dit kan als volgt worden opgenomen in de metadata:
-<!--
+<code>
 <span style='color: #000080;'>
 &lt;gmd:MD_Keywords&gt;<br/>
 &lt;gmd:keyword&gt;<br/>
@@ -88,17 +88,17 @@ Dit kan als volgt worden opgenomen in de metadata:
 &lt;gmd:date&gt;<br/>
 &lt;gmd:CI_Date&gt;<br/>
 &lt;gmd:date&gt;<br/>
-<span style='color: #333333;'>                  </span><span style='color: #000080;'>&lt;gco:Date&gt;</span><span style='color: #333333;'>2023-09-27</span><span style='color: #000080;'>&lt;/gco:Date&gt;</span><br/>
-<span style='color: #333333;'>             </span><span style='color: #000080;'>&lt;/gmd:date&gt;</span><br/>
-<span style='color: #333333;'>             </span><span style='color: #000080;'>&lt;gmd:dateType&gt;</span><br/>
-<span style='color: #333333;'>                 </span><span style='color: #000080;'>&lt;gmd:CI_DateTypeCode </span><span style='color: #008080;'>codeList</span><span style='color: #000080;'>=</span><span style='color: #DD1144;'>"http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode"</span><span style='color: #000080;'> </span><span style='color: #008080;'>codeListValue</span><span style='color: #000080;'>=</span><span style='color: #DD1144;'>"publication"</span><span style='color: #000080;'>&gt;</span><span style='color: #333333;'>publication</span><span style='color: #000080;'>&lt;/gmd:CI_DateTypeCode&gt;</span><br/>
-<span style='color: #333333;'>             </span><span style='color: #000080;'>&lt;/gmd:dateType&gt;</span><br/>
-<span style='color: #333333;'>         </span><span style='color: #000080;'>&lt;/gmd:CI_Date&gt;</span><br/>
-<span style='color: #333333;'>      </span><span style='color: #000080;'>&lt;/gmd:date&gt;</span><br/>
-<span style='color: #333333;'>   </span><span style='color: #000080;'>&lt;/gmd:CI_Citation&gt;</span>
+&lt;gco:Date&gt;2023-09-27&lt;/gco:Date&gt;<br/>
+&lt;/gmd:date&gt;<br/>
+&lt;gmd:dateType&gt;<br/>
+&lt;gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode"codeListValue="publication"&gt;publication&lt;/gmd:CI_DateTypeCode&gt;<br/>
+&lt;/gmd:dateType&gt;<br/>
+&lt;/gmd:CI_Date&gt;<br/>
+&lt;/gmd:date&gt;<br/>
+&lt;/gmd:CI_Citation&gt;<br/>
+&lt;/gmd:thesaurusName&gt;<br/>
+</span></code>
 
-<span style='color: #000080;'>&lt;/gmd:thesaurusName&gt;</span>
--->
 #### Contactinformatie
 De contactinformatie voor vragen over de API kan in de metadata- elementen behorende bij “Verantwoordelijke organisatie bron” worden opgenomen. Daarbij als rol pointOfContact gebruiken.
 
@@ -158,9 +158,9 @@ Kortom, datasets ontsloten via INSPIRE ‘direct access download services’, ku
 Uitzonderingen daargelaten moeten veel van de datasets naast via een API ook als bulkdownload beschikbaar worden gesteld. Bulksdownload wordt in de uitvoeringsverordening gedefinieerd als: “een functie die het mogelijk maakt een volledige dataset in een of meer pakketten te downloaden.”<br/>
 
 INSPIRE dataproviders met HDV datasets kunnen de INSPIRE ‘network services’ op de volgende wijze inzetten voor de HDV: <br/>
-<table style='width: 274.5pt;'><caption></caption>
-<colgroup><col id='col1' style='width: 62.568306010928964%;'>
-<col id='col2' style='width: 37.43169398907104%;'>
+<table style='width: 277pt;'><caption></caption>
+<colgroup><col id='col1' style='width: 64%;'>
+<col id='col2' style='width: 36%;'>
 </colgroup>
 <tbody valign='top'><tr><td align='left' style='border-top: 0.5pt solid #A8D08D; border-left: 0.5pt solid #A8D08D; border-bottom: 0.5pt solid #A8D08D; border-right: 0.5pt solid #A8D08D; background-color: #70AD47;'>INSPIRE ‘network service’<br/>
 </td>
